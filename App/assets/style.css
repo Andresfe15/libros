@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fuente/LTSaeada-Regular.otf);
+}
+
+html{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    font-family: fuente1;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #32e796;
+    color: #5e5b5b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.book-details {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.book-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.book-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.book-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin: auto 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+}
